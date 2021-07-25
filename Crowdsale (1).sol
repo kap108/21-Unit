@@ -12,7 +12,7 @@ contract PupperCoinSale is {
 
     constructor(
         uint rate, // rate
-        address payable wallet, // sale beneficiary
+        address payable wallet, // 
         token // the Token is the TokenSale will work with
     )
         Crowdsale(rate, wallet, token)
